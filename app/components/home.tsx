@@ -627,10 +627,14 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>ChatGPT VStyle</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            可自行设置key，亦可购买访问码使用。
           </div>
+          <div className={styles["sidebar-sub-title"]}>
+              购买地址：
+              <a href='http://ka.vstylebox.com/' target="_blank"></a>
+            </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
